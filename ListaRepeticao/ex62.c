@@ -5,7 +5,7 @@ int main()
     int i;
 	float numeroAlunos, nota, soma = 0, media;
 	printf("Digite o número de alunos: ");
-	scanf("%d", &numeroAlunos);
+	scanf("%f", &numeroAlunos);
 	for(i = 1; i <= numeroAlunos; i++){
 		printf("Digite a nota do aluno %d: ", i);
 		scanf("%f", &nota);
